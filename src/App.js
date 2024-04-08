@@ -17,6 +17,7 @@ function App() {
         <Navbar/>
         <Routes>
           <Route path="/" element={<Home/>} />
+          <Route path="/letterboxd-redesign" element={<Home/>} />
           <Route path="/films" element={<Films/>} />
           <Route path="/lists" element={<Lists/>} />
           <Route path="/profile" element={<Profile/>} />
