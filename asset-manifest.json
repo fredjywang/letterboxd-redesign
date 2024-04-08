@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/letterboxd-redesign/static/css/main.c9d4e37b.css",
+    "main.js": "/letterboxd-redesign/static/js/main.bfb56de2.js",
+    "static/js/453.ed3810f9.chunk.js": "/letterboxd-redesign/static/js/453.ed3810f9.chunk.js",
+    "static/media/gxk-poster.jpg": "/letterboxd-redesign/static/media/gxk-poster.235f838f138b31ce25d7.jpg",
+    "static/media/tg-poster.jpg": "/letterboxd-redesign/static/media/tg-poster.bffa1d3eba19e5bb4449.jpg",
+    "static/media/cra-poster.jpg": "/letterboxd-redesign/static/media/cra-poster.d82b81f1e1732f8a2f72.jpg",
+    "static/media/kfp4-poster.jpg": "/letterboxd-redesign/static/media/kfp4-poster.19868df6eb4dba43837a.jpg",
+    "static/media/dp.jpg": "/letterboxd-redesign/static/media/dp.61fae4cf41ba725b365e.jpg",
+    "static/media/barbie-poster.jpg": "/letterboxd-redesign/static/media/barbie-poster.2f1eb57c0e88903e19c6.jpg",
+    "static/media/wows-poster.jpg": "/letterboxd-redesign/static/media/wows-poster.eaa53f26677bdb31bd81.jpg",
+    "static/media/immaculate-poster.jpg": "/letterboxd-redesign/static/media/immaculate-poster.add4b996407e18c27dda.jpg",
+    "static/media/opp-poster.jpg": "/letterboxd-redesign/static/media/opp-poster.5fe99b2691cc5f25ce80.jpg",
+    "static/media/moneyball-poster.jpg": "/letterboxd-redesign/static/media/moneyball-poster.72cad5f63ef296a2865a.jpg",
+    "static/media/dune-2-poster.jpg": "/letterboxd-redesign/static/media/dune-2-poster.7d2d6eb022956b941b32.jpg",
+    "static/media/abigail-poster.jpg": "/letterboxd-redesign/static/media/abigail-poster.f4394b104fe4dd159ff0.jpg",
+    "static/media/dp2.jpg": "/letterboxd-redesign/static/media/dp2.1a02080f23de9d7a7bda.jpg",
+    "static/media/letterboxd-logo.png": "/letterboxd-redesign/static/media/letterboxd-logo.3b11b4e0ce69805edb90.png",
+    "static/media/black-bg.jpg": "/letterboxd-redesign/static/media/black-bg.6232abe56a881d90aaeb.jpg",
+    "static/media/gb-poster.jfif": "/letterboxd-redesign/static/media/gb-poster.6a6d73049ae07fb9cfc3.jfif",
+    "static/media/mm-poster.jfif": "/letterboxd-redesign/static/media/mm-poster.f20f6d48eff0ceb1f189.jfif",
+    "static/media/pl-poster.jfif": "/letterboxd-redesign/static/media/pl-poster.755be845813bdef6f6c4.jfif",
+    "static/media/tfo-poster.jfif": "/letterboxd-redesign/static/media/tfo-poster.6038a6fcdc15524b1f8b.jfif",
+    "index.html": "/letterboxd-redesign/index.html",
+    "main.c9d4e37b.css.map": "/letterboxd-redesign/static/css/main.c9d4e37b.css.map",
+    "main.bfb56de2.js.map": "/letterboxd-redesign/static/js/main.bfb56de2.js.map",
+    "453.ed3810f9.chunk.js.map": "/letterboxd-redesign/static/js/453.ed3810f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c9d4e37b.css",
+    "static/js/main.bfb56de2.js"
+  ]
+}
