@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/letterboxd-redesign/static/css/main.c9d4e37b.css",
-    "main.js": "/letterboxd-redesign/static/js/main.bfb56de2.js",
+    "main.js": "/letterboxd-redesign/static/js/main.b5f7c420.js",
     "static/js/453.ed3810f9.chunk.js": "/letterboxd-redesign/static/js/453.ed3810f9.chunk.js",
     "static/media/gxk-poster.jpg": "/letterboxd-redesign/static/media/gxk-poster.235f838f138b31ce25d7.jpg",
     "static/media/tg-poster.jpg": "/letterboxd-redesign/static/media/tg-poster.bffa1d3eba19e5bb4449.jpg",
@@ -24,11 +24,11 @@
     "static/media/tfo-poster.jfif": "/letterboxd-redesign/static/media/tfo-poster.6038a6fcdc15524b1f8b.jfif",
     "index.html": "/letterboxd-redesign/index.html",
     "main.c9d4e37b.css.map": "/letterboxd-redesign/static/css/main.c9d4e37b.css.map",
-    "main.bfb56de2.js.map": "/letterboxd-redesign/static/js/main.bfb56de2.js.map",
+    "main.b5f7c420.js.map": "/letterboxd-redesign/static/js/main.b5f7c420.js.map",
     "453.ed3810f9.chunk.js.map": "/letterboxd-redesign/static/js/453.ed3810f9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c9d4e37b.css",
-    "static/js/main.bfb56de2.js"
+    "static/js/main.b5f7c420.js"
   ]
 }
