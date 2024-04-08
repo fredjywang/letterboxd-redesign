@@ -1,0 +1,210 @@
+/* src/styles/main.css */
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+/* Your custom styles */
+/* Add any additional CSS rules or Tailwind utility classes here */
+/* In your CSS file or component */
+
+.is-disabled-hide {
+    visibility: hidden;
+}
+
+.item-slider-container {
+    background-color: var(--sp
+  
+  -background-color);
+    /* box-shadow: 0px 0px 16px -8px rgb(0 0 0 / 68%); */
+}
+
+.item-slider-container .item-title {
+border-bottom: 1px solid rgba(0, 0, 0, .1);
+padding-bottom: 15px;
+}
+
+.item-slider {
+padding: 0px 5px;
+justify-content: space-between;
+align-items: center;
+display: flex;
+position: relative;
+}
+
+.item-slider .item-container {
+display: inline-flex;
+justify-content: flex-start;
+overflow-x: scroll;
+padding: 0px 5px;
+}
+
+.item-slider .item-container span {
+margin: 0px 10px;
+}
+
+.item-slider .item-container::-webkit-scrollbar {
+display: none;
+}
+
+.item-slider .left-arrow-left {
+position: absolute;
+left: 15px;
+cursor: pointer;
+z-index: 1;
+}
+
+.item-slider .right-arrow-right {
+position: absolute;
+right: 0px;
+cursor: pointer;
+z-index: 1;
+}
+
+.right-arrow-right>svg,
+.left-arrow-left>svg {
+color: #c3c3c1;
+}
+
+.right-arrow-right svg:hover,
+.left-arrow-left svg:hover {
+color: #5b5b5b;
+border-radius: 50%;
+}
+
+/* Card item styles */
+.item-container .card {
+border: unset;
+}
+
+.item-container .card-title {
+font-size: 14px;
+font-weight: normal;
+}
+
+.item-container .card span {
+padding: 0;
+margin: 0;
+}
+
+.item-container .card .mrp-price {
+font-size: 14px;
+font-weight: normal;
+display: flex;
+justify-content: flex-start;
+align-items: center;
+gap: 5px;
+}
+
+.item-container .card .save-price {
+font-size: 14px;
+display: flex;
+justify-content: flex-start;
+align-items: center;
+color: var(--sp-exam-button-color);
+}
+
+.item-container .card .actual-price {
+font-size: 14px;
+font-weight: 500;
+display: flex;
+justify-content: flex-start;
+align-items: center;
+}
+
+.custom-scroll-container {
+    max-height: 300px;
+    max-width: 300px;
+    border: 1px solid lightgray;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+  }
+
+.rcs-custom-scroll {
+    min-height: 0;
+    min-width: 0;
+}
+
+.rcs-custom-scroll .rcs-outer-container {
+    overflow: hidden;
+}
+  
+.rcs-custom-scroll .rcs-outer-container .rcs-positioning {
+    position: relative;
+}
+  
+.rcs-custom-scroll .rcs-outer-container:hover .rcs-custom-scrollbar {
+    opacity: 1;
+    transition-duration: 0.2s;
+}
+  
+.rcs-custom-scroll .rcs-inner-container {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    -webkit-overflow-scrolling: touch;
+}
+  
+.rcs-custom-scroll .rcs-inner-container:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 0;
+    background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.2) 0%,
+      rgba(0, 0, 0, 0.05) 60%,
+      rgba(0, 0, 0, 0) 100%
+    );
+    pointer-events: none;
+    transition: height 0.1s ease-in;
+    will-change: height;
+  }
+  
+.rcs-custom-scroll .rcs-inner-container.rcs-content-scrolled:after {
+    height: 5px;
+    transition: height 0.15s ease-out;
+  }
+  
+.rcs-custom-scroll.rcs-scroll-handle-dragged .rcs-inner-container {
+    user-select: none;
+  }
+  
+.rcs-custom-scroll .rcs-custom-scrollbar {
+    position: absolute;
+    height: 100%;
+    width: 6px;
+    right: 0px;
+    opacity: 0;
+    z-index: 1;
+    transition: opacity 0.4s ease-out;
+    padding: 6px 0;
+    box-sizing: border-box;
+    will-change: opacity;
+    pointer-events: none;
+  }
+  
+.rcs-custom-scroll .rcs-custom-scrollbar.rcs-custom-scrollbar-rtl {
+    right: auto;
+    left: 3px;
+  }
+  
+.rcs-custom-scroll.rcs-scroll-handle-dragged .rcs-custom-scrollbar {
+    opacity: 1;
+  }
+  
+.rcs-custom-scroll .rcs-custom-scroll-handle {
+    position: absolute;
+    width: 100%;
+    top: 0;
+  }
+  
+.with-bg-color .rcs-inner-handle {
+    height: calc(100% - 12px);
+    margin-top: 6px;
+    background-color: rgba(100, 21, 255, 0.7);
+    border-radius: 3px;
+  }
+  
+  
