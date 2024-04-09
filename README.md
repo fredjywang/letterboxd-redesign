@@ -1,6 +1,7 @@
-# Getting Started with Create React App
+# Letterboxd Redesign
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+If you want to simply see the project, you can go to the [Github pages link](https://fredjywang.github.io/letterboxd-redesign/).
 
 ## Available Scripts
 
